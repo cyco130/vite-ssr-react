@@ -4,8 +4,8 @@ import react from "@vitejs/plugin-react";
  * @type {import('vite').UserConfig}
  */
 export default {
-	plugins: [react()],
-	build: {
-		minify: false,
-	},
+  plugins: [react()],
+  build: {
+    minify: false,
+  },
 };
